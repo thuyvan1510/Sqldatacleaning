@@ -48,13 +48,6 @@ select	* from club_member_info;
 UPDATE club_member_info_cleaned
 SET full_name = TRIM(full_name);
 ```
-### Uppercasecleaning
-
-This is an educational project on data cleaning and preparation using SQL. The oriWhitespaces in full_name
-```sql
-UPDATE club_member_info_cleaned
-SET full_name = TRIM(full_name);
-```
 ### Uppercase full_name
 ```
 UPDATE club_member_info_cleaned
